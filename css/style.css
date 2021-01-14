@@ -3,9 +3,32 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     margin: 0;
 }
+.header{
+    background-color: #FFFBF0;
+}
 .container{
     margin-bottom: 80px;
 }
 .alignment{
     margin-right: 2em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px !important;
+    color: #FABE4C;
+}
+h1 span{
+    color: #000;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.buy-now-button{
+    text-decoration: none;
+    background-color: #A4BC46;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
 }
