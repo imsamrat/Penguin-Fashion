@@ -81,3 +81,11 @@ h5{
     color: black;
     font-size: 16px;
 }
+/* Footer Section */
+footer{
+    background-color: #FFFBF0;
+}
+footer p{
+    margin-top: 20px;
+    text-align: center;
+}
