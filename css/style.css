@@ -32,3 +32,23 @@ p{
     color: #fff;
     font-weight: 700;
 }
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px; 
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #FABE4C;
+}
+.card img{
+    width: 100%;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
