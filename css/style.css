@@ -3,7 +3,7 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     margin: 0;
 }
-.header{
+header{
     background-color: #FFFBF0;
 }
 .container{
@@ -11,6 +11,8 @@ body{
 }
 .alignment{
     margin-right: 2em;
+    color: black;
+    font-weight: 700;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
@@ -45,8 +47,13 @@ h5{
     font-size: 36px;
     color: #FABE4C;
 }
-.card img{
-    width: 100%;
+.card-footer{
+    border: 0 !important;
+    background-color: white !important;
+}
+.card-img-top img{
+    height: 300px;
+    width: 200px;
 }
 .card-title{
     font-family: 'Roboto', sans-serif;
@@ -57,6 +64,9 @@ h5{
     height: 100px;
 }
 /*Additional Section*/
+.feedback{
+    margin-bottom: 0;
+}
 .card-group .card-body{
     text-align: center;
     padding: 40px 20px;

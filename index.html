@@ -22,7 +22,8 @@
 </head>
 <body>
 <!-- Navbar Section Start-->
-<section class="container">
+<header>
+  <section class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img src="Logo, Icon/Group 33072.png" alt="" width="250px">
@@ -30,9 +31,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active alignment" aria-current="page" href="#home">Home</a>
+            <a class="nav-link alignment" aria-current="page" href="#home">Home</a>
             <a class="nav-link alignment" href="#woman">Product</a>
             <a class="nav-link alignment" href="#man">About Us</a>
             <a class="nav-link alignment" href="#contact" tabindex="-1" aria-disabled="true">Contact Us</a>
@@ -40,27 +41,24 @@
         </div>
       </div>
     </nav>
-  </section>
-  <!-- Navbar Section End -->
-
-  <!-- Top Banner Start -->
-  <div class="container" id="home">
-    <div class="container px-4">
-      <div class="row gx-5">
-        <div class="col-md-7">
-          <h1>BE THE PENGUINS<br><span>OF WINTER</span></h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit ab doloribus culpa ipsam rem
-            suscipit a obcaecati quia cum!</p> <br>
-          <a class="buy-now-button" target="_blank" href="#"><i class="fas fa-shopping-cart"></i> BUY NOW</a>
-        </div>
-        <div class="col-md-5">
-          <img src="images/Samrat1.png" class="d-block w-100" alt="...">
+    <div class="container" id="home">
+      <div class="container px-4">
+        <div class="row gx-5">
+          <div class="col-md-7">
+            <h1>BE THE PENGUINS<br><span>OF WINTER</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit ab doloribus culpa ipsam rem
+              suscipit a obcaecati quia cum!</p> <br>
+            <a class="buy-now-button" target="_blank" href="#"><i class="fas fa-shopping-cart"></i> BUY NOW</a>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Samrat1.png" class="d-block w-100" alt="...">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Top Banner End -->
+  </section>
+</header>
+  <!-- Navbar Section End -->
 
 <!-- Woman Jacket Section Start-->
 <div class="container" id="woman">
@@ -167,12 +165,12 @@
     <div class="row">
       <div class="col-md-5 bg-light">
         <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0 align-items-center">
-            <div class="col-md-4">
+          <div class="row p-3 d-flex justify-content-between align-items-center flex-column flex-lg-row">
+            <div class="col-md-4 text-center text-md-start">
               <img src="Logo, Icon/image 12.png" alt="...">
             </div>
             <div class="col-md-8">
-              <div class="card-body">
+              <div class="card-body text-center text-md-start">
                 <h5 class="card-title">Find the Perfect Fit</h5>
                 <p class="card-text">Everybody is different, which is why we
                   offer styles for every body.</p>
@@ -181,12 +179,12 @@
           </div>
         </div>
         <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
+          <div class="row p-3 d-flex justify-content-between align-items-center flex-column flex-lg-row">
+            <div class="col-md-4 text-center text-md-start">
               <img src="Logo, Icon/image 13.png" alt="...">
             </div>
             <div class="col-md-8">
-              <div class="card-body">
+              <div class="card-body text-center text-md-start">
                 <h5 class="card-title">Free Exchanges</h5>
                 <p class="card-text">One of the many reasons you can shop
                   with peace of mind.</p>
@@ -195,12 +193,12 @@
           </div>
         </div>
         <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
+          <div class="row p-3 d-flex justify-content-between align-items-center flex-column flex-lg-row">
+            <div class="col-md-4 text-center text-md-start">
               <img src="Logo, Icon/image 14.png" alt="...">
             </div>
             <div class="col-md-8">
-              <div class="card-body">
+              <div class="card-body text-center text-md-start">
                 <h5 class="card-title">Contact Our Seller</h5>
                 <p class="card-text">They are here to help you. That's quite
                   literally what we pay them for.</p>
@@ -216,7 +214,7 @@
   </div>
   <!-- Delivery Section End-->
   <!-- Additional Section Start -->
-  <h2 class="container text-center">Customer Feedback</h2>
+  <h2 class="container text-center feedback">Customer Feedback</h2>
   <div class="card-group container">
     <div class="card m-5 rounded">
       <div class="card-body">
@@ -272,7 +270,7 @@
   </div>
 <!-- Additional Section End -->
 <!-- Footer Start -->
-<footer id="contact">
+<footer id="contact" class="p-2">
     <nav>
 	    <p>
 			<a href="#">Terms and Conditions</a> |
