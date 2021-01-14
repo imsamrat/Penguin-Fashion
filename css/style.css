@@ -1,0 +1,11 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+}
+.container{
+    margin-bottom: 80px;
+}
+.alignment{
+    margin-right: 2em;
+}
